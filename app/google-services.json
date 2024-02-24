@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "116133614544",
+    "firebase_url": "https://kissanseva-fd196-default-rtdb.firebaseio.com",
+    "project_id": "kissanseva-fd196",
+    "storage_bucket": "kissanseva-fd196.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116133614544:android:91ba7fbfd60f9045d6dfd5",
+        "android_client_info": {
+          "package_name": "com.example.kissanseva"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "116133614544-gdo8iiq26hf1cnttackjtnvu2626bllf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5y_Wpo9UREeuak-EZPc5oSrRpiUcIJXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "116133614544-gdo8iiq26hf1cnttackjtnvu2626bllf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

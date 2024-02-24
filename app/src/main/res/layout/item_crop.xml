@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#D1F987"
+        >
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crop Name"
+            android:textColor="#038e6a"
+            android:fontFamily="@font/pfdb"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/quantityTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:textColor="#038e6a"
+            android:fontFamily="@font/pfds"
+            android:layout_marginStart="20dp"
+            android:text="Quantity: 0"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/dateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:layout_marginStart="20dp"
+            android:textColor="#038e6a"
+            android:fontFamily="@font/pfds"
+            android:text="Date: N/A"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/priceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price: $0.00"
+            android:layout_marginTop="65dp"
+            android:textColor="#038e6a"
+            android:fontFamily="@font/pfds"
+            android:layout_marginStart="20dp"
+            android:textSize="16sp" />
+
+        <Button
+            android:layout_width="114dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#038E6A"
+            android:fontFamily="@font/pfdb"
+            android:textSize="16dp"
+            android:text="Buy" />
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#038E6A"
+            android:fontFamily="@font/pfdb"
+            android:text="Location"
+            android:textSize="16dp" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

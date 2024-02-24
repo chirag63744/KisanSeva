@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sell"
+    android:background="#fcffd4">
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/back"
+        app:layout_constraintEnd_toStartOf="@+id/imageView1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="122dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="202dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/pfds"
+        android:text="Mandi Sell"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="315dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/enterCropName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_text"
+            android:fontFamily="@font/pfdb"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:hint="Select Crop"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/quantity"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_text"
+            android:fontFamily="@font/pfdb"
+            android:hint="Select Quantity"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_text"
+            android:fontFamily="@font/pfdb"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:hint="Select Date"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="165dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_text"
+            android:fontFamily="@font/pfdb"
+            android:hint="Select Price"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="115dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="210dp"
+            android:backgroundTint="#038E6A"
+            android:fontFamily="@font/pfdb"
+            android:text="Submit" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
